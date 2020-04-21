@@ -1,0 +1,106 @@
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+
+
+body{
+  background: $bg-color;
+  color: $font-color;
+}
+
+
+.navbar{
+  background: #292b2c;
+  opacity: .8;
+  border-bottom: 3px solid #008ed6;
+}
+
+#home-sec{
+  background: url('../img/img3.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .dark-overlay{
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .fas{
+    background: #fff;
+    color: $primary-color;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 4px;
+  }
+  .card-form{
+    opacity: .8;
+  }
+  .home-inner{
+    padding-top: 150px;
+    padding-bottom: 20px;
+  }
+}
+
+.explore-sec{
+  color: $bg-color;
+  padding-top: 60px;
+
+  .explore-img{
+    background: no-repeat center center;
+    background-size: cover;
+
+  }
+  .fas{
+    background: $bg-color;
+    color: #fff;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 4px;
+  }
+}
+
+
+#create{
+  background-color: $primary-color;
+
+}
+
+#create-body{
+  .fas{
+    background-color: #fff;
+    color: $primary-color;
+    font-size: 30px;
+    border-radius: 4px;
+  }
+}
+
+#share{
+  background-color: $primary-color;
+}
+#share-sec{
+  background-color: #fff;
+  color: $bg-color;
+  .fas{
+    background: $bg-color;
+    color: #fff;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 4px;
+  }
+}
+#footer{
+  p a{
+    text-decoration: none;
+  }
+}
+
+
+
+
+@media(max-width: 576px){
+   h1{
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  .fas{
+    font-size: 24px;
+  }
+}
